@@ -77,6 +77,12 @@
       "password": "$2a$10$7GYxeNtW6lAc3CWegy33F.an6d1qoq20Db2IycDhhpyUvEbY4X0gG",
       "name": "Gabriel",
       "id": 12
+    },
+    {
+      "email": "admin@kenzie.com.br",
+      "password": "$2a$10$.CfNIvlV6W/tZj3mNbw2jeOhe/io5jpVVbnRYPEB7rOduvRj6D4ge",
+      "name": "admin",
+      "id": 14
     }
   ],
   "tasks": [
