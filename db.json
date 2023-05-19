@@ -1,11 +1,465 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
+      "email": "example@mail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "name": "Example",
+      "id": 13
+    },
+    {
+      "email": "gabriel@kenzie.com",
+      "password": "$2a$10$J6seYDqYFBOG9zVYAGGBjOc3t7iqlRywnmJ0827CWab2dKYFNG3Wa",
+      "name": "Gabriel 2",
       "id": 1
+    },
+    {
+      "email": "gabriel@gmail.com",
+      "password": "$2a$10$4a6AItBVPLNGpEAkZFy3vOfnoHb8aPsZa9VnaAP/lNaCjmaNoM0fq",
+      "name": "Gabriel",
+      "id": 2
+    },
+    {
+      "email": "gabri2el@gmail.com",
+      "password": "$2a$10$kSVZKlYUcx5mjYYoMujwp.gfnZirYLucy/XeQFEcCKHaK68OnEAam",
+      "name": "Gabriel",
+      "id": 3
+    },
+    {
+      "email": "gabriel@gma2il.com",
+      "password": "$2a$10$VHtyWA1Dy0ik82Web1Cjleuw.UeeZXiLUtfdPK63Xb4nzFz9Byedi",
+      "name": "Gabriel",
+      "id": 4
+    },
+    {
+      "email": "gabriel2@gmail.com",
+      "password": "$2a$10$j0bVexjKK6nLr.v5tMWCCe9deLaAD/PtdNUI8r9TF1oPInTh5qn5y",
+      "name": "asdasd",
+      "id": 5
+    },
+    {
+      "email": "gabriel32@gmail.com",
+      "password": "$2a$10$Uw4dbMp5dpn3SrnSX2vwn.2HctZI2kuOKEvL2Q2aTulA23nlH.dJu",
+      "name": "asdasd",
+      "id": 6
+    },
+    {
+      "email": "2gabriel32@gmail.com",
+      "password": "$2a$10$I8vrckidviRVfKe4BxzUKOnPPV1P362ZM6AzixWCpCsl24.hxtOKC",
+      "name": "asdasd",
+      "id": 7
+    },
+    {
+      "email": "gabrie2@gmmail.com",
+      "password": "$2a$10$Fz3vPK5K2JEAtMAozBRx2.T54ZFVRp64i0OjdXsezKS6WXZ2VYG4K",
+      "name": "asdasd",
+      "id": 8
+    },
+    {
+      "email": "gabriel@gmaaail.com",
+      "password": "$2a$10$qzHyCurpZRWi2QaCe2H9O.3rMu6mDtJnqJlnx9kGkykh7A.Qz7c0a",
+      "name": "Gabriel",
+      "id": 9
+    },
+    {
+      "email": "asdsd@gmail.com",
+      "password": "$2a$10$pDWYg90BQ.1tTZ/z1h0AfO3I99p/Ea3zdwSF8TkiYwBtm9Koo0o72",
+      "name": "Gabriel",
+      "id": 10
+    },
+    {
+      "email": "gabriel@gmail.com.br",
+      "password": "$2a$10$pgl5YGpKWyrLb.3YPGD2qe5wXdT/JinA0h0zqowJ94G5fTOKUDPN6",
+      "name": "Gabriel",
+      "id": 11
+    },
+    {
+      "email": "gabriel2@email.com",
+      "password": "$2a$10$7GYxeNtW6lAc3CWegy33F.an6d1qoq20Db2IycDhhpyUvEbY4X0gG",
+      "name": "Gabriel",
+      "id": 12
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Estudar React e banco de dados",
+      "description": "asdasd",
+      "userId": 13,
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Estudar React e banco de dados",
+      "description": "asdasd",
+      "userId": 12,
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Tarea 2",
+      "description": "Descripción de la tarea 2",
+      "userId": 1,
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "Tarea 3",
+      "description": "Descripción de la tarea 3",
+      "userId": 2,
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "Tarea 4",
+      "description": "Descripción de la tarea 4",
+      "userId": 3,
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "Tarea 5",
+      "description": "Descripción de la tarea 5",
+      "userId": 4,
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "Tarea 6",
+      "description": "Descripción de la tarea 6",
+      "userId": 5,
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "Tarea 7",
+      "description": "Descripción de la tarea 7",
+      "userId": 6,
+      "completed": false,
+      "id": 8
+    },
+    {
+      "title": "Tarea 8",
+      "description": "Descripción de la tarea 8",
+      "userId": 7,
+      "completed": false,
+      "id": 9
+    },
+    {
+      "title": "Tarea 9",
+      "description": "Descripción de la tarea 9",
+      "userId": 8,
+      "completed": false,
+      "id": 10
+    },
+    {
+      "title": "Tarea 10",
+      "description": "Descripción de la tarea 10",
+      "userId": 9,
+      "completed": false,
+      "id": 11
+    },
+    {
+      "title": "Tarea 11",
+      "description": "Descripción de la tarea 11",
+      "userId": 10,
+      "completed": false,
+      "id": 12
+    },
+    {
+      "title": "Tarea 12",
+      "description": "Descripción de la tarea 12",
+      "userId": 11,
+      "completed": false,
+      "id": 13
+    },
+    {
+      "title": "Tarea 13",
+      "description": "Descripción de la tarea 13",
+      "userId": 12,
+      "completed": false,
+      "id": 14
+    },
+    {
+      "title": "Tarea 14",
+      "description": "Descripción de la tarea 14",
+      "userId": 13,
+      "completed": false,
+      "id": 15
+    },
+    {
+      "title": "Tarea 15",
+      "description": "Descripción de la tarea 15",
+      "userId": 1,
+      "completed": false,
+      "id": 16
+    },
+    {
+      "title": "Tarea 16",
+      "description": "Descripción de la tarea 16",
+      "userId": 2,
+      "completed": false,
+      "id": 17
+    },
+    {
+      "title": "Tarea 17",
+      "description": "Descripción de la tarea 17",
+      "userId": 3,
+      "completed": false,
+      "id": 18
+    },
+    {
+      "title": "Tarea 18",
+      "description": "Descripción de la tarea 18",
+      "userId": 4,
+      "completed": false,
+      "id": 19
+    },
+    {
+      "title": "Tarea 19",
+      "description": "Descripción de la tarea 19",
+      "userId": 5,
+      "completed": false,
+      "id": 20
+    },
+    {
+      "title": "Tarea 20",
+      "description": "Descripción de la tarea 20",
+      "userId": 6,
+      "completed": false,
+      "id": 21
+    },
+    {
+      "title": "Tarea 21",
+      "description": "Descripción de la tarea 21",
+      "userId": 7,
+      "completed": false,
+      "id": 22
+    },
+    {
+      "title": "Tarea 22",
+      "description": "Descripción de la tarea 22",
+      "userId": 8,
+      "completed": false,
+      "id": 23
+    },
+    {
+      "title": "Tarea 23",
+      "description": "Descripción de la tarea 23",
+      "userId": 9,
+      "completed": false,
+      "id": 24
+    },
+    {
+      "title": "Tarea 24",
+      "description": "Descripción de la tarea 24",
+      "userId": 10,
+      "completed": false,
+      "id": 25
+    },
+    {
+      "title": "Tarea 25",
+      "description": "Descripción de la tarea 25",
+      "userId": 11,
+      "completed": false,
+      "id": 26
+    },
+    {
+      "title": "Tarea 26",
+      "description": "Descripción de la tarea 26",
+      "userId": 12,
+      "completed": false,
+      "id": 27
+    },
+    {
+      "title": "Tarea 27",
+      "description": "Descripción de la tarea 27",
+      "userId": 13,
+      "completed": false,
+      "id": 28
+    },
+    {
+      "title": "Tarea 28",
+      "description": "Descripción de la tarea 28",
+      "userId": 1,
+      "completed": false,
+      "id": 29
+    },
+    {
+      "title": "Tarea 29",
+      "description": "Descripción de la tarea 29",
+      "userId": 2,
+      "completed": false,
+      "id": 30
+    },
+    {
+      "title": "Tarea 30",
+      "description": "Descripción de la tarea 30",
+      "userId": 3,
+      "completed": false,
+      "id": 31
+    },
+    {
+      "title": "Tarea 31",
+      "description": "Descripción de la tarea 31",
+      "userId": 4,
+      "completed": false,
+      "id": 32
+    },
+    {
+      "title": "Tarea 32",
+      "description": "Descripción de la tarea 32",
+      "userId": 5,
+      "completed": false,
+      "id": 33
+    },
+    {
+      "title": "Tarea 33",
+      "description": "Descripción de la tarea 33",
+      "userId": 6,
+      "completed": false,
+      "id": 34
+    },
+    {
+      "title": "Tarea 34",
+      "description": "Descripción de la tarea 34",
+      "userId": 7,
+      "completed": false,
+      "id": 35
+    },
+    {
+      "title": "Tarea 35",
+      "description": "Descripción de la tarea 35",
+      "userId": 8,
+      "completed": false,
+      "id": 36
+    },
+    {
+      "title": "Tarea 36",
+      "description": "Descripción de la tarea 36",
+      "userId": 9,
+      "completed": false,
+      "id": 37
+    },
+    {
+      "title": "Tarea 37",
+      "description": "Descripción de la tarea 37",
+      "userId": 10,
+      "completed": false,
+      "id": 38
+    },
+    {
+      "title": "Tarea 38",
+      "description": "Descripción de la tarea 38",
+      "userId": 11,
+      "completed": false,
+      "id": 39
+    },
+    {
+      "title": "Tarea 39",
+      "description": "Descripción de la tarea 39",
+      "userId": 12,
+      "completed": false,
+      "id": 40
+    },
+    {
+      "title": "Tarea 40",
+      "description": "Descripción de la tarea 40",
+      "userId": 13,
+      "completed": false,
+      "id": 41
+    },
+    {
+      "title": "Tarea 41",
+      "description": "Descripción de la tarea 41",
+      "userId": 1,
+      "completed": false,
+      "id": 42
+    },
+    {
+      "title": "Tarea 42",
+      "description": "Descripción de la tarea 42",
+      "userId": 2,
+      "completed": false,
+      "id": 43
+    },
+    {
+      "title": "Tarea 43",
+      "description": "Descripción de la tarea 43",
+      "userId": 3,
+      "completed": false,
+      "id": 44
+    },
+    {
+      "title": "Tarea 44",
+      "description": "Descripción de la tarea 44",
+      "userId": 4,
+      "completed": false,
+      "id": 45
+    },
+    {
+      "title": "Tarea 45",
+      "description": "Descripción de la tarea 45",
+      "userId": 5,
+      "completed": false,
+      "id": 46
+    },
+    {
+      "title": "Tarea 46",
+      "description": "Descripción de la tarea 46",
+      "userId": 6,
+      "completed": false,
+      "id": 47
+    },
+    {
+      "title": "Tarea 47",
+      "description": "Descripción de la tarea 47",
+      "userId": 7,
+      "completed": false,
+      "id": 48
+    },
+    {
+      "title": "Tarea 48",
+      "description": "Descripción de la tarea 48",
+      "userId": 8,
+      "completed": false,
+      "id": 49
+    },
+    {
+      "title": "Tarea 49",
+      "description": "Descripción de la tarea 49",
+      "userId": 9,
+      "completed": false,
+      "id": 50
+    },
+    {
+      "title": "Tarea 50",
+      "description": "Descripción de la tarea 50",
+      "userId": 10,
+      "completed": false,
+      "id": 51
+    },
+    {
+      "title": "Jogar PS4",
+      "description": "vau comer o dia 06-04-2023",
+      "userId": 13,
+      "id": 52
+    },
+    {
+      "title": "Estudar JS",
+      "description": "dhjsgfsjksgsdgfsgsg",
+      "userId": 13,
+      "id": 53
+    },
+    {
+      "title": "asstir Avengers",
+      "description": "Movie muito boa",
+      "userId": 13,
+      "id": 54
+    },
+    {
+      "title": "Limpar a casa ",
+      "description": "vau comer o dia 06-04-2023",
+      "userId": 13,
+      "id": 55
     }
   ]
 }
